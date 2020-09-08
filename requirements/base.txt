@@ -22,5 +22,5 @@ django-simple-menu==1.2.1
 
 #
 nobinobi-core==0.1.0
-nobinobi-staff==0.1.3
-nobinobi-child==0.1.0
+nobinobi-staff==0.1.3.1
+nobinobi-child==0.1.1
