@@ -74,6 +74,7 @@ THIRD_PARTY_APPS = [
     'menu',
     'widget_tweaks',
     'bootstrap_datepicker_plus',
+    'rest_framework_datatables',
 ]
 
 LOCAL_APPS = [
