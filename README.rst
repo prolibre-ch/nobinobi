@@ -9,9 +9,18 @@ Tools to facilitate the work in nurseries and kindergartens.
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
      :target: https://github.com/ambv/black
      :alt: Black code style
-
-
-:License: GPLv3
+.. image:: https://travis-ci.org/prolibre-ch/nobinobi.svg?branch=master
+    :target: https://travis-ci.org/prolibre-ch/nobinobi
+.. image:: https://codecov.io/gh/prolibre-ch/nobinobi/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/prolibre-ch/nobinobi
+.. image:: https://pyup.io/repos/github/prolibre-ch/nobinobi/shield.svg
+     :target: https://pyup.io/repos/github/prolibre-ch/nobinobi/
+     :alt: Updates
+.. image:: https://pyup.io/repos/github/prolibre-ch/nobinobi/python-3-shield.svg
+     :target: https://pyup.io/repos/github/prolibre-ch/nobinobi/
+     :alt: Python 3
+     
+:License: AGPLv3
 
 
 Settings
