@@ -10,7 +10,7 @@ services:
       context: .
       dockerfile: ./compose/local/django/Dockerfile
     image: nobinobi_local_django
-    container_name: django
+    container_name: django_nobinobi
     depends_on:
       - postgres
       - mailhog
@@ -28,7 +28,7 @@ services:
       context: .
       dockerfile: ./compose/production/postgres/Dockerfile
     image: nobinobi_production_postgres
-    container_name: postgres
+    container_name: postgres_nobinobi
     volumes:
       - local_postgres_data:/var/lib/postgresql/data
       - local_postgres_data_backups:/backups
@@ -37,7 +37,7 @@ services:
 
   docs:
     image: nobinobi_local_docs
-    container_name: docs
+    container_name: docs_nobinobi
     build:
       context: .
       dockerfile: ./compose/local/docs/Dockerfile
@@ -52,7 +52,7 @@ services:
 
   mailhog:
     image: mailhog/mailhog:v1.0.0
-    container_name: mailhog
+    container_name: mailhog_nobinobi
     ports:
       - "8025:8025"
 
@@ -61,7 +61,7 @@ services:
       context: .
       dockerfile: ./compose/local/node/Dockerfile
     image: nobinobi_local_node
-    container_name: node
+    container_name: node_nobinobi
     depends_on:
       - django
     volumes:
