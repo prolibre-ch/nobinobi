@@ -9,6 +9,6 @@ def media_storage(settings, tmpdir):
     settings.MEDIA_ROOT = tmpdir.strpath
 
 
-#@pytest.fixture
-#def user() -> User:
+# @pytest.fixture
+# def user() -> User:
 #    return UserFactory()
