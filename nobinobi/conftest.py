@@ -1,7 +1,7 @@
 import pytest
 
-#from nobinobi.users.models import User
-#from nobinobi.users.tests.factories import UserFactory
+# from nobinobi.users.models import User
+# from nobinobi.users.tests.factories import UserFactory
 
 
 @pytest.fixture(autouse=True)
