@@ -12,13 +12,16 @@
 
 import os
 import sys
-import django
 
+import django
+from django.conf import settings
 
 sys.path.insert(0, os.path.abspath("/app"))
 os.environ.setdefault("DATABASE_URL", "")
 
+settings.configure()
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.local")
+
 django.setup()
 
 # -- Project information -----------------------------------------------------
@@ -27,8 +30,8 @@ project = "Nobinobi"
 copyright = """2020, Florian Alu"""
 author = "Florian Alu"
 
-
 # -- General configuration ---------------------------------------------------
+master_doc = '_source/index'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom

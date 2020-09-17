@@ -9,7 +9,7 @@ Documentation can be written as rst files in the `nobinobi/docs/_source`.
 
 To build and serve docs, use the commands:
     ::
-    
+
         docker-compose -f local.yml up docs
 
 
@@ -24,15 +24,13 @@ The sphinx extension `apidoc <https://www.sphinx-doc.org/en/master/man/sphinx-ap
 
 Numpy or Google style docstrings will be picked up from project files and availble for documentation. See the `Napoleon <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/>`_ extension for details.
 
-For an in-use example, see the `page source <_sources/users.rst.txt>`_ for :ref:`users`.
-
 To compile all docstrings automatically into documentation source files, use the command:
     ::
-    
+
         make apidocs
 
-
 This can be done in the docker container:
-    :: 
-        
+    ::
+
         docker run --rm docs make apidocs
+
