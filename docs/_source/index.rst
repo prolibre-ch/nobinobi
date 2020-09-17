@@ -8,11 +8,8 @@ Welcome to Nobinobi's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    howto
-   pycharm/configuration
-   users
 
 
 
