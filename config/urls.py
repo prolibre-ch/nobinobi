@@ -5,6 +5,7 @@ from django.urls import include, path
 from django.views import defaults as default_views
 from nobinobi_child import urls as nobinobi_child_urls
 from nobinobi_core import urls as nobinobi_core_urls
+from nobinobi_daily_follow_up import urls as nobinobi_daily_follow_up_urls
 from nobinobi_staff import urls as nobinobi_staff_urls
 from rest_framework.authtoken.views import obtain_auth_token
 
@@ -12,6 +13,7 @@ urlpatterns = [
     path('', include(nobinobi_core_urls)),
     path('', include(nobinobi_staff_urls)),
     path('', include(nobinobi_child_urls)),
+    path('', include(nobinobi_daily_follow_up_urls)),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     # Your stuff: custom urls includes go here
@@ -25,6 +27,11 @@ urlpatterns += [
     path("api/", include("config.api_router")),
     # DRF auth token
     path("auth-token/", obtain_auth_token),
+]
+
+# OTHER URLS
+urlpatterns += [
+    path('select2/', include('django_select2.urls')),
 ]
 
 if settings.DEBUG:
