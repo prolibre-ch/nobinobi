@@ -81,6 +81,7 @@ LOCAL_APPS = [
     'nobinobi_core.apps.NobinobiCoreConfig',
     'nobinobi_staff.apps.NobinobiStaffConfig',    # Your stuff: custom apps go here
     'nobinobi_child.apps.NobinobiChildConfig',    # Your stuff: custom apps go here
+    'nobinobi_daily_follow_up.apps.NobinobiDailyFollowUpConfig',    # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -294,3 +295,10 @@ DISPLAY_CONTACT_ADDRESS = env.bool("DISPLAY_CONTACT_ADDRESS", default=True)
 
 """ Affichage et ajout de la sieste é la période du matin """
 PERIODE_SIESTE = env.bool("PERIODE_SIESTE", default=False)
+
+# NOBINOBI_DAILY_FOLLOW_UP
+""" Sort NOBINOBI DAILY FOLLOW UP """
+PRESENCE_DAY_SORTING = 'usual_name'
+
+""" DISPLAY AGE GROUP IN PRESENCE """
+DISPLAY_AGE_GROUP_IN_PRESENCE = False
