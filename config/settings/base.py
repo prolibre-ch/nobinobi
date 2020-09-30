@@ -1,10 +1,9 @@
 """
 Base settings to build other settings files upon.
 """
-from pathlib import Path
-
 import environ
 import os
+from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # nobinobi/
@@ -73,6 +72,7 @@ THIRD_PARTY_APPS = [
     'django_select2',
     'bootstrap_modal_forms',
     'menu',
+    'notifications',
     'widget_tweaks',
     'bootstrap_datepicker_plus',
     'rest_framework_datatables',
@@ -80,9 +80,9 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     'nobinobi_core.apps.NobinobiCoreConfig',
-    'nobinobi_staff.apps.NobinobiStaffConfig',    # Your stuff: custom apps go here
-    'nobinobi_child.apps.NobinobiChildConfig',    # Your stuff: custom apps go here
-    'nobinobi_daily_follow_up.apps.NobinobiDailyFollowUpConfig',    # Your stuff: custom apps go here
+    'nobinobi_staff.apps.NobinobiStaffConfig',  # Your stuff: custom apps go here
+    'nobinobi_child.apps.NobinobiChildConfig',  # Your stuff: custom apps go here
+    'nobinobi_daily_follow_up.apps.NobinobiDailyFollowUpConfig',  # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -244,7 +244,7 @@ LOGGING = {
     "formatters": {
         "verbose": {
             "format": "%(levelname)s %(asctime)s %(module)s "
-            "%(process)d %(thread)d %(message)s"
+                      "%(process)d %(thread)d %(message)s"
         }
     },
     "handlers": {

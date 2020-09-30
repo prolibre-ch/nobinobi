@@ -32,6 +32,7 @@ urlpatterns += [
 # OTHER URLS
 urlpatterns += [
     path('select2/', include('django_select2.urls')),
+    path('inbox/notifications/', include(notifications.urls, namespace='notifications')),
 ]
 
 if settings.DEBUG:
