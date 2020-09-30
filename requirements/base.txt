@@ -20,6 +20,7 @@ django-cors-headers==3.5.0 # https://github.com/adamchainz/django-cors-headers
 django_weasyprint==1.0.1
 django-simple-menu==1.2.1
 django-extensions==3.0.9  # https://github.com/django-extensions/django-extensions
+django-notifications-hq==1.6.0
 
 #
 nobinobi-core==0.1.0
