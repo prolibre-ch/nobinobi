@@ -26,4 +26,4 @@ django-notifications-hq==1.6.0
 nobinobi-core==0.1.4.1
 nobinobi-staff==0.1.4
 nobinobi-child==0.1.3.7
-nobinobi-daily-follow-up==0.1.1.6
+nobinobi-daily-follow-up==0.1.1.11
