@@ -15,7 +15,7 @@ branch: develop
 # update schedule
 # default: empty
 # allowed: "every day", "every week", ..
-schedule: "every day"
+schedule: "every week"
 
 # search for requirement files
 # default: True
@@ -32,7 +32,8 @@ requirements:
       pin: True
   - requirements/local.txt:
       # don't update dependencies, use global 'pin' default
-      update: False
+      update: insecure
+      pin: True
   - requirements/production.txt:
       # update insecure only, pin all
       update: insecure
