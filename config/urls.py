@@ -1,3 +1,4 @@
+import notifications.urls
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
@@ -10,10 +11,10 @@ from nobinobi_staff import urls as nobinobi_staff_urls
 from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
-    path('', include(nobinobi_core_urls)),
-    path('', include(nobinobi_staff_urls)),
-    path('', include(nobinobi_child_urls)),
-    path('', include(nobinobi_daily_follow_up_urls)),
+    path('', include(nobinobi_core_urls, namespace="nobinobi_core")),
+    path('', include(nobinobi_staff_urls, namespace="nobinobi_staff")),
+    path('', include(nobinobi_child_urls, namespace="nobinobi_child")),
+    path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_daily_follow_up")),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     # Your stuff: custom urls includes go here
@@ -32,6 +33,7 @@ urlpatterns += [
 # OTHER URLS
 urlpatterns += [
     path('select2/', include('django_select2.urls')),
+    path('inbox/notifications/', include(notifications.urls, namespace='notifications')),
 ]
 
 if settings.DEBUG:

@@ -1,28 +1,29 @@
-pytz==2020.1  # https://github.com/stub42/pytz
-python-slugify==4.0.1  # https://github.com/un33k/python-slugify
-Pillow==7.2.0  # https://github.com/python-pillow/Pillow
-argon2-cffi==20.1.0  # https://github.com/hynek/argon2_cffi
-whitenoise==5.2.0  # https://github.com/evansd/whitenoise
+pytz==2021.1  # https://github.com/stub42/pytz
+python-slugify==5.0.2  # https://github.com/un33k/python-slugify
+Pillow==8.3.2  # https://github.com/python-pillow/Pillow
+argon2-cffi==21.1.0  # https://github.com/hynek/argon2_cffi
+whitenoise==5.3.0  # https://github.com/evansd/whitenoise
 redis==3.5.3  # https://github.com/andymccurdy/redis-py
-hiredis==1.1.0  # https://github.com/redis/hiredis-py
+hiredis==2.0.0  # https://github.com/redis/hiredis-py
 
 # Django
 # ------------------------------------------------------------------------------
-django==3.1.1  # https://www.djangoproject.com/
-django-environ==0.4.5  # https://github.com/joke2k/django-environ
-django-model-utils==4.0.0  # https://github.com/jazzband/django-model-utils
-django-allauth==0.42.0  # https://github.com/pennersr/django-allauth
-django-crispy-forms==1.9.2  # https://github.com/django-crispy-forms/django-crispy-forms
-django-redis==4.12.1  # https://github.com/jazzband/django-redis
+django==3.2.7  # https://www.djangoproject.com/
+django-environ==0.7.0  # https://github.com/joke2k/django-environ
+django-model-utils==4.1.1  # https://github.com/jazzband/django-model-utils
+django-allauth==0.45.0  # https://github.com/pennersr/django-allauth
+django-crispy-forms==1.12.0  # https://github.com/django-crispy-forms/django-crispy-forms
+django-redis==5.0.0  # https://github.com/jazzband/django-redis
 # Django REST Framework
-djangorestframework==3.11.1  # https://github.com/encode/django-rest-framework
-django-cors-headers==3.5.0 # https://github.com/adamchainz/django-cors-headers
-django_weasyprint==1.0.1
+djangorestframework==3.12.4  # https://github.com/encode/django-rest-framework
+django-cors-headers==3.8.0 # https://github.com/adamchainz/django-cors-headers
+django_weasyprint==1.1.0.post1
 django-simple-menu==1.2.1
-django-extensions==3.0.8  # https://github.com/django-extensions/django-extensions
+django-extensions==3.1.3  # https://github.com/django-extensions/django-extensions
+django-notifications-hq==1.6.0
 
 #
-nobinobi-core==0.1.0
-nobinobi-staff==0.1.3.1
-nobinobi-child==0.1.1.1
-nobinobi-daily-follow-up==0.1.0
+nobinobi-core==0.1.4.6
+nobinobi-staff==0.1.4
+nobinobi-child==0.1.3.7
+nobinobi-daily-follow-up==0.1.1.13
