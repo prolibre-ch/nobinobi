@@ -19,8 +19,8 @@ urlpatterns = [
     path('', include(nobinobi_child_urls, namespace="nobinobi_child")),
     path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_daily_follow_up")),
     path('', include(nobinobi_stats_urls, namespace="nobinobi_stats")),
-    path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_observation")),
-    path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_kitchen")),
+    path('', include(nobinobi_observation_urls, namespace="nobinobi_observation")),
+    path('', include(nobinobi_kitchen_urls, namespace="nobinobi_kitchen")),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     # Your stuff: custom urls includes go here
