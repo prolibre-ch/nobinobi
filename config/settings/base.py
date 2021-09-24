@@ -83,6 +83,9 @@ LOCAL_APPS = [
     'nobinobi_staff.apps.NobinobiStaffConfig',  # Your stuff: custom apps go here
     'nobinobi_child.apps.NobinobiChildConfig',  # Your stuff: custom apps go here
     'nobinobi_daily_follow_up.apps.NobinobiDailyFollowUpConfig',  # Your stuff: custom apps go here
+    'nobinobi_stats.apps.NobinobiStatsConfig',  # Your stuff: custom apps go here
+    'nobinobi_observation.apps.NobinobiObservationConfig',  # Your stuff: custom apps go here
+    'nobinobi_kitchen.apps.NobinobiKitchenConfig',  # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

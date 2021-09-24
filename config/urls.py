@@ -7,6 +7,9 @@ from django.views import defaults as default_views
 from nobinobi_child import urls as nobinobi_child_urls
 from nobinobi_core import urls as nobinobi_core_urls
 from nobinobi_daily_follow_up import urls as nobinobi_daily_follow_up_urls
+from nobinobi_stats import urls as nobinobi_stats_urls
+from nobinobi_observation import urls as nobinobi_observation_urls
+from nobinobi_kitchen import urls as nobinobi_kitchen_urls
 from nobinobi_staff import urls as nobinobi_staff_urls
 from rest_framework.authtoken.views import obtain_auth_token
 
@@ -15,6 +18,9 @@ urlpatterns = [
     path('', include(nobinobi_staff_urls, namespace="nobinobi_staff")),
     path('', include(nobinobi_child_urls, namespace="nobinobi_child")),
     path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_daily_follow_up")),
+    path('', include(nobinobi_stats_urls, namespace="nobinobi_stats")),
+    path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_observation")),
+    path('', include(nobinobi_daily_follow_up_urls, namespace="nobinobi_kitchen")),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     # Your stuff: custom urls includes go here
