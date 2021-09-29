@@ -39,10 +39,10 @@ drf-writable-nested==0.6.3
 # django-simple-rest==1.4.1
 git+https://github.com/croach/django-simple-rest.git@master#egg=django-simple-rest
 
-nobinobi-core==0.1.4.6
-nobinobi-staff==0.1.6.5.1
-nobinobi-child==0.1.3.7
-nobinobi-daily-follow-up==0.1.1.13
-nobinobi-stats==0.1.1
-nobinobi-observation==0.1.2
-nobinobi-kitchen==0.1.0
+nobinobi-core>=0.1.4.6
+nobinobi-staff>=0.1.6.5.1
+nobinobi-child>=0.1.3.7
+nobinobi-daily-follow-up>=0.1.1.13
+nobinobi-stats>=0.1.1
+nobinobi-observation>=0.1.2
+nobinobi-kitchen>=0.1.0
