@@ -76,7 +76,6 @@ THIRD_PARTY_APPS = [
     'bootstrap_datepicker_plus',
     'rest_framework_datatables',
     'simple_rest',
-    'django_extensions',
     'notifications',
     'rangefilter',
 ]
