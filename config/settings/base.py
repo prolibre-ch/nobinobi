@@ -72,10 +72,13 @@ THIRD_PARTY_APPS = [
     'django_select2',
     'bootstrap_modal_forms',
     'menu',
-    'notifications',
     'widget_tweaks',
     'bootstrap_datepicker_plus',
     'rest_framework_datatables',
+    'simple_rest',
+    'django_extensions',
+    'notifications',
+    'rangefilter',
 ]
 
 LOCAL_APPS = [
