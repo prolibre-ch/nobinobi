@@ -30,7 +30,7 @@ django-import-export==2.8.0
 django-bootstrap-datepicker-plus==4.0.0
 django-admin-rangefilter==0.8.7
 DateTimeRange==1.2.0
-django-phonenumber-field==5.2.0
+django-phonenumber-field==6.3.0
 phonenumbers==8.12.33
 django-select2==7.7.2
 # modalajax
