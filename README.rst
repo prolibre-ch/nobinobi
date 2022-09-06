@@ -1,7 +1,7 @@
 Nobinobi
 ========
 
-Tools to facilitate the work in nurseries and kindergartens.
+Set of software developed by the company ProLibre in Geneva to facilitate the work in nurseries and kindergartens.
 
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/
@@ -116,4 +116,4 @@ See detailed `cookiecutter-django Docker documentation`_.
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
 
 
-
+Contact: info@nobinobi.ch - ProLibre SàRL - Carouge - Switzerland
