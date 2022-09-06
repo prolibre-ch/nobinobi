@@ -115,5 +115,9 @@ See detailed `cookiecutter-django Docker documentation`_.
 
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
 
+Contact
+^^^^^^^
 
-Contact: info@nobinobi.ch - ProLibre SàRL - Carouge - Switzerland
+* Email: info@nobinobi.ch
+* Téléphone: +41 22 3015383
+* ProLibre SàRL - Carouge - Switzerland
