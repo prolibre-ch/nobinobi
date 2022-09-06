@@ -119,5 +119,6 @@ Contact
 ^^^^^^^
 
 * Email: info@nobinobi.ch
+* Web: https://nobinobi.ch/
 * Téléphone: +41 22 3015383
 * ProLibre SàRL - Carouge - Switzerland
