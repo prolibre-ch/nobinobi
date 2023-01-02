@@ -19,7 +19,7 @@ django-widget-tweaks==1.4.12
 django-auto-one-to-one==3.3.5
 
 # Django REST Framework
-djangorestframework==3.12.4  # https://github.com/encode/django-rest-framework
+djangorestframework==3.14.0  # https://github.com/encode/django-rest-framework
 djangorestframework-datatables==0.6.0
 django-cors-headers==3.8.0 # https://github.com/adamchainz/django-cors-headers
 django_weasyprint==1.1.0.post1
