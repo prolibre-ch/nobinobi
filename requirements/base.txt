@@ -26,7 +26,7 @@ django_weasyprint==2.3.0
 django-simple-menu==2.1.3
 django-extensions==3.2.3  # https://github.com/django-extensions/django-extensions
 django-notifications-hq==1.8.3
-django-import-export==2.6.0
+django-import-export==4.0.6
 django-bootstrap-datepicker-plus==3.0.5
 django-admin-rangefilter==0.8.1
 DateTimeRange==1.2.0
