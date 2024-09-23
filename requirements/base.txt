@@ -35,7 +35,7 @@ phonenumbers==8.13.45
 django-select2==8.2.1
 # modalajax
 django-bootstrap-modal-forms==3.0.4
-drf-writable-nested==0.6.3
+drf-writable-nested==0.7.0
 # django-simple-rest==1.4.1
 git+https://github.com/croach/django-simple-rest.git@master#egg=django-simple-rest
 
